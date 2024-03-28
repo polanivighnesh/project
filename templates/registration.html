@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:lightgray;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container{
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        input[type="text"],input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <form method="post">
+            <center>
+            <h1>REGISTRATION</h1>
+            <label for="">Firstname:</label>
+            <input type="text" name="firstname">
+            <label for="">Lastname:</label>
+            <input type="text" name="lastname">
+            <label for="">Username:</label>
+            <input type="text" name=username>
+            <label for="">Locality:</label>
+            <input type="text" name="Locality">
+            <label for="">Password:</label>
+            <input type="password" name="password">
+            </center>
+            <center>
+                <button type="submit">Submit</button>
+                
+            </center>
+    </form>
+    </div>
+</body>
+</html>
